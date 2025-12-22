@@ -399,7 +399,7 @@ function FlurioreLib:MakeGui(GuiConfig)
 	local LayersPageLayout = Instance.new("UIPageLayout");
 
 	HirimiGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-	HirimiGui.Name = "LimeGui"
+	HirimiGui.Name = "HirimiGui"
 	HirimiGui.Parent = CoreGui
 
 	DropShadowHolder.BackgroundTransparency = 1
@@ -407,7 +407,7 @@ function FlurioreLib:MakeGui(GuiConfig)
 	DropShadowHolder.Size = UDim2.new(0.8, 0, 0.4, 0)
 	DropShadowHolder.ZIndex = 0
 	DropShadowHolder.Name = "DropShadowHolder"
-	DropShadowHolder.Parent = LimeGui
+	DropShadowHolder.Parent = HirimiGui
 	
   DropShadowHolder.Position = UDim2.new(0, (HirimiGui.AbsoluteSize.X // 2 - DropShadowHolder.Size.X.Offset // 2), 0, (HirimiGui.AbsoluteSize.Y // 2 - DropShadowHolder.Size.Y.Offset // 2))
 	DropShadow.Image = "rbxassetid://6015897843"
