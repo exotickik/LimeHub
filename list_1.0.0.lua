@@ -1,4 +1,4 @@
-
+return {
 aba
 abaaba
 abaaka
@@ -112499,3 +112499,4 @@ zuriat
 zus
 zuzumo
 zuzuni
+}
